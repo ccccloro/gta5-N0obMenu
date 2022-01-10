@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="minhook">
+      <UniqueIdentifier>{73ce5cdd-164e-4b2f-a9d7-3d391d9b120d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility">
+      <UniqueIdentifier>{6c1283c8-43a4-429a-b90e-2dcbac569982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minhook\hde">
+      <UniqueIdentifier>{b50a11cf-fd70-4b02-99d1-d0b066a03f64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="minhook\hde\hde32.c">
+      <Filter>minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\hde\hde64.c">
+      <Filter>minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\buffer.c">
+      <Filter>minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\hook.c">
+      <Filter>minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\trampoline.c">
+      <Filter>minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="minhook\hde\hde32.h">
+      <Filter>minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\hde64.h">
+      <Filter>minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\pstdint.h">
+      <Filter>minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\table32.h">
+      <Filter>minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\table64.h">
+      <Filter>minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\buffer.h">
+      <Filter>minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\trampoline.h">
+      <Filter>minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="memscan.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="x64tools.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook.h">
+      <Filter>minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="hooking.h" />
+    <ClInclude Include="types.h" />
+    <ClInclude Include="classes.h" />
+    <ClInclude Include="strings.h" />
+    <ClInclude Include="module.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="script.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="graphics.h" />
+    <ClInclude Include="config.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="scrypt.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="invoker.h" />
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="events.h" />
+    <ClInclude Include="hud.h" />
+    <ClInclude Include="network.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="names.txt" />
+  </ItemGroup>
+</Project>
