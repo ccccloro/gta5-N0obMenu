@@ -38,7 +38,8 @@ public:
 		//add and notify incoming players
 		Ped currRemotePed;
 		SPlayer* pCurrentNetPlayer = NULL;
-
+		
+		/* bad method to refresh playerlist... */
 		for (DWORD p = 0; p < 32; p++)
 		{
 			currRemotePed = get_player_ped(p);
