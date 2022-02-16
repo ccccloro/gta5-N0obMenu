@@ -17,12 +17,6 @@ class script
 
 public:
 
-	/*
-	update player list
-	refresh the hud
-	read inputs
-	*/
-
 	static VOID setup()
 	{
 		CreateMenu();
