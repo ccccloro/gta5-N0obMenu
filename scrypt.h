@@ -3,6 +3,8 @@
 #include <Windows.h>
 #include <string>
 
+/* https://stackoverflow.com/questions/3381614/c-convert-string-to-hexadecimal-and-vice-versa */ 
+
 int hex_value(unsigned char hex_digit)
 {
     static const signed char hex_values[256] = {
