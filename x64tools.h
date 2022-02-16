@@ -72,10 +72,12 @@ typedef struct _x64_fastcall_spoof_ctx
 
 } x64_fastcall_spoof_ctx;
 
+/* args remapper from: https://www.unknowncheats.me/forum/anti-cheat-bypass/268039-x64-return-address-spoofing-source-explanation.html */
+
 class x64
 {
 private:
-
+	
 	template<typename Ret, typename...Args>
 	static inline auto call_payload(x64_fastcall_spoof_ctx* call_ctx, Args...args) -> Ret
 	{
